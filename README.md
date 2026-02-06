@@ -43,8 +43,7 @@ Abaixo, a cronologia visual do desenvolvimento técnico, documentando a transiç
 ### 🚀 Status Atual (Polimento)
 *Visualização mais recente da build, com movimentação fluida e assets integrados.*
 
-[![Status Atual](http://img.youtube.com/vi/1DyJ7RwH23s/0.jpg)](http://www.youtube.com/watch?v=1DyJ7RwH23s) |
-*(Clique para assistir a demonstração da build atual)*
+[![Status Atual](http://img.youtube.com/vi/1DyJ7RwH23s/0.jpg)](http://www.youtube.com/watch?v=1DyJ7RwH23s)*(Clique para assistir a demonstração da build atual)*
 
 ---
 
@@ -58,7 +57,7 @@ Abaixo, a cronologia visual do desenvolvimento técnico, documentando a transiç
 ## 📂 Acesso à Documentação Acadêmica
 
 Para detalhes técnicos e teóricos, consulte os relatórios oficiais anexados neste repositório:
-* [📄 Relatório Teórico - Parte 1 (PDF)](./docs/relatorios/PARTE_2_IC_PRATICA.pdf)
-* [📄 Relatório Prático - Parte 2 (PDF)](./docs/relatorios/PARTE_2_IC_PRATICA.pdf)
+* [📄 Relatório Teórico - Parte 1 (PDF)](./docs/relatorios/PARTE%201-%20Leitura%20IC%20-%20PROD.pdf)
+* [📄 Relatório Prático - Parte 2 (PDF)](./docs/relatorios/PARTE%202%20IC%20-%20PRÁTICA%20-%20PROD.pdf)
 ---
 *Desenvolvido como requisito de Iniciação Científica.*
