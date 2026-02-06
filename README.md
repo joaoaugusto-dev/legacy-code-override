@@ -43,7 +43,8 @@ Abaixo, a cronologia visual do desenvolvimento técnico, documentando a transiç
 ### 🚀 Status Atual (Polimento)
 *Visualização mais recente da build, com movimentação fluida e assets integrados.*
 
-[![Status Atual](http://img.youtube.com/vi/1DyJ7RwH23s/0.jpg)](http://www.youtube.com/watch?v=1DyJ7RwH23s)*(Clique para assistir a demonstração da build atual)*
+[![Status Atual](http://img.youtube.com/vi/1DyJ7RwH23s/0.jpg)](http://www.youtube.com/watch?v=1DyJ7RwH23s)  
+* (Clique para assistir a demonstração da build atual)*
 
 ---
 
@@ -51,7 +52,7 @@ Abaixo, a cronologia visual do desenvolvimento técnico, documentando a transiç
 
 * **Engine:** GameMaker
 * **Linguagem:** GML (GameMaker Language)
-* **Arte:** IA Generativa + Aseprite (Tratamento Manual Pixel Perfect)
+* **Arte:** IA Generativa + Canva (Tratamento Manual Pixel Perfect)
 * **Documentação:** [Pasta Docs](./docs/)
 
 ## 📂 Acesso à Documentação Acadêmica
