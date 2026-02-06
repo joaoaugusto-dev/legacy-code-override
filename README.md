@@ -43,7 +43,7 @@ Abaixo, a cronologia visual do desenvolvimento técnico, documentando a transiç
 ### 🚀 Status Atual (Polimento)
 *Visualização mais recente da build, com movimentação fluida e assets integrados.*
 
-[![Status Atual](http://img.youtube.com/vi/1DyJ7RwH23s/0.jpg)](http://www.youtube.com/watch?v=1DyJ7RwH23s)
+[![Status Atual](http://img.youtube.com/vi/1DyJ7RwH23s/0.jpg)](http://www.youtube.com/watch?v=1DyJ7RwH23s) |
 *(Clique para assistir a demonstração da build atual)*
 
 ---

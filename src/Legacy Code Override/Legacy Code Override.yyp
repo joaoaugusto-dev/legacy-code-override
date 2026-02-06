@@ -1,0 +1,42 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Legacy Code Override",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.14.2.213",
+  },
+  "name":"Legacy Code Override",
+  "resources":[
+    {"id":{"name":"obj_bit","path":"objects/obj_bit/obj_bit.yy",},},
+    {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
+    {"id":{"name":"obj_kill","path":"objects/obj_kill/obj_kill.yy",},},
+    {"id":{"name":"Mainframe","path":"rooms/Mainframe/Mainframe.yy",},},
+    {"id":{"name":"backgroundMainframe","path":"sprites/backgroundMainframe/backgroundMainframe.yy",},},
+    {"id":{"name":"spr_bit_boost","path":"sprites/spr_bit_boost/spr_bit_boost.yy",},},
+    {"id":{"name":"spr_bit_jump","path":"sprites/spr_bit_jump/spr_bit_jump.yy",},},
+    {"id":{"name":"spr_bit_stand","path":"sprites/spr_bit_stand/spr_bit_stand.yy",},},
+    {"id":{"name":"spr_bit_walk","path":"sprites/spr_bit_walk/spr_bit_walk.yy",},},
+    {"id":{"name":"spr_debug","path":"sprites/spr_debug/spr_debug.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Mainframe","path":"rooms/Mainframe/Mainframe.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
