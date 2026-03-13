@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_debug",
-    "path":"sprites/spr_debug/spr_debug.yy",
+    "name":"spr_plataforma",
+    "path":"sprites/spr_plataforma/spr_plataforma.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
