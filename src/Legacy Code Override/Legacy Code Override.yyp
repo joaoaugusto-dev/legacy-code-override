@@ -15,7 +15,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Legacy Code Override",
   "resources":[
@@ -24,6 +24,7 @@
     {"id":{"name":"obj_kill","path":"objects/obj_kill/obj_kill.yy",},},
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},},
     {"id":{"name":"obj_ponta","path":"objects/obj_ponta/obj_ponta.yy",},},
+    {"id":{"name":"obj_teleporter","path":"objects/obj_teleporter/obj_teleporter.yy",},},
     {"id":{"name":"Mainframe","path":"rooms/Mainframe/Mainframe.yy",},},
     {"id":{"name":"backgroundMainframe","path":"sprites/backgroundMainframe/backgroundMainframe.yy",},},
     {"id":{"name":"spr_bit_boost","path":"sprites/spr_bit_boost/spr_bit_boost.yy",},},
@@ -34,6 +35,7 @@
     {"id":{"name":"spr_ladder","path":"sprites/spr_ladder/spr_ladder.yy",},},
     {"id":{"name":"spr_plataforma","path":"sprites/spr_plataforma/spr_plataforma.yy",},},
     {"id":{"name":"spr_pontaPlataforma","path":"sprites/spr_pontaPlataforma/spr_pontaPlataforma.yy",},},
+    {"id":{"name":"spr_teleporter","path":"sprites/spr_teleporter/spr_teleporter.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

@@ -92,24 +92,21 @@ else {
     vspd += grav;
 }
 
-// =========================================================
-// 4. COLISÕES
-// =========================================================
 // Horizontal
-if (place_meeting(x + hspd, y, obj_chao) || place_meeting(x + hspd, y, obj_ponta)) {
-    while (!place_meeting(x + sign(hspd), y, obj_chao) && !place_meeting(x + sign(hspd), y, obj_ponta)) {
-        x += sign(hspd);
-    }
-    hspd = 0;
+if (place_meeting(x + hspd, y, obj_chao) || place_meeting(x + hspd, y, obj_ponta) || place_meeting(x + hspd, y, obj_teleporter)) {
+    while (!place_meeting(x + sign(hspd), y, obj_chao) && !place_meeting(x + sign(hspd), y, obj_ponta) && !place_meeting(x + sign(hspd), y, obj_teleporter)) {
+        x += sign(hspd);
+    }
+    hspd = 0;
 }
 x += hspd;
 
 // Vertical
-if (place_meeting(x, y + vspd, obj_chao) || place_meeting(x, y + vspd, obj_ponta)) {
-    while (!place_meeting(x, y + sign(vspd), obj_chao) && !place_meeting(x, y + sign(vspd), obj_ponta)) {
-        y += sign(vspd);
-    }
-    vspd = 0;
+if (place_meeting(x, y + vspd, obj_chao) || place_meeting(x, y + vspd, obj_ponta) || place_meeting(x, y + vspd, obj_teleporter)) {
+    while (!place_meeting(x, y + sign(vspd), obj_chao) && !place_meeting(x, y + sign(vspd), obj_ponta) && !place_meeting(x, y + sign(vspd), obj_teleporter)) {
+        y += sign(vspd);
+    }
+    vspd = 0;
 }
 y += vspd;
 
