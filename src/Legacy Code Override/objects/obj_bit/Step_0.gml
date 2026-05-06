@@ -189,15 +189,50 @@ else if (!_no_chao) {
 }
 
 // =========================================================
-// 6. MORTE
+// 6. SISTEMA DE DANO E MORTE
 // =========================================================
+
+// 1. Reduz o tempo de invencibilidade a cada frame
+if (invulneravel > 0) invulneravel -= 1;
+
+// 2. COLISÃO COM O BUG (Toma dano e segue o jogo)
+var _inst_bug = instance_place(x, y, obj_bug);
+
+// Checagem Nova: Bateu no bug, não tá invulnerável, não tá morto E o bug NÃO está morrendo!
+if (_inst_bug != noone && invulneravel <= 0 && !morto && _inst_bug.state != "DYING") {
+    global.vidas -= 1; // Desconta 1 vida
+    
+    if (global.vidas > 0) {
+        // Se SOBROU VIDA:
+        invulneravel = 150; // AUMENTADO: Fica invulnerável por 2.5 segundos
+        vspd = -5;         // Dá um pulinho para cima
+        
+        if (meu_gamepad != -1) {
+            gamepad_set_vibration(meu_gamepad, 0.6, 0.6);
+            vib_timer = 15;
+        }
+    } else {
+        // Se ACABOU A VIDA encostando no bug:
+        morto = true;
+        if (meu_gamepad != -1) gamepad_set_vibration(meu_gamepad, 1.0, 1.0);
+        hspd = 0;
+        vspd = 0;
+        alarm[0] = 30; // Chama o Game Over em meio segundo
+    }
+}
+
+// 3. MORTE INSTANTÂNEA (obj_kill ou cair da tela)
 if ((place_meeting(x, y, obj_kill) || y > room_height) && !morto) {
     morto = true; 
+    
+    // Zera as vidas para garantir o Game Over instantâneo (volta pro começo)
+    global.vidas = 0; 
+    
     if (meu_gamepad != -1) gamepad_set_vibration(meu_gamepad, 1.0, 1.0);
     
     hspd = 0;
     vspd = 0;
-    alarm[0] = 10; // Reinicia em apenas 10 frames
+    alarm[0] = 30; // Aguarda meio segundo e roda o Alarm 0
 }
 
 // =========================================================

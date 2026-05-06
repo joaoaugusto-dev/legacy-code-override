@@ -32,3 +32,11 @@ is_teleporting = false;
 teleport_timer = 0;
 teleport_duration = 2 * 60; // 5 segundos (considerando 60 FPS)
 
+// =========================================================
+// SISTEMA DE VIDAS E DANO
+// =========================================================
+if (!variable_global_exists("vidas")) {
+    global.vidas = 3; 
+}
+
+invulneravel = 0; // Tempo que o player fica piscando sem tomar dano
