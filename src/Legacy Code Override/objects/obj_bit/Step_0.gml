@@ -199,3 +199,33 @@ if ((place_meeting(x, y, obj_kill) || y > room_height) && !morto) {
     vspd = 0;
     alarm[0] = 10; // Reinicia em apenas 10 frames
 }
+
+// =========================================================
+// SISTEMA DE TIRO (MATRIX)
+// =========================================================
+if (cooldown_tiro > 0) cooldown_tiro -= 1;
+
+// Define o botão de tiro (Teclado: Z ou Shift | Gamepad: Botão X / Quadrado)
+var _key_shoot = keyboard_check_pressed(ord("Z")) || keyboard_check_pressed(vk_shift);
+
+if (meu_gamepad != -1) {
+    if (gamepad_button_check_pressed(meu_gamepad, gp_face3)) _key_shoot = true; 
+}
+
+if (_key_shoot && cooldown_tiro <= 0) {
+    var _tiro = instance_create_depth(x, y, depth, obj_tiro);
+    
+    var _dir = sign(image_xscale);
+    if (_dir == 0) _dir = 1; 
+    
+    _tiro.hspd = _dir * 8; 
+    cooldown_tiro = 15; 
+    
+    // ==========================================
+    // NOVA VIBRAÇÃO RÁPIDA DO TIRO
+    // ==========================================
+    if (meu_gamepad != -1) {
+        gamepad_set_vibration(meu_gamepad, 0.4, 0.4); // Força média
+        vib_timer = 8; // Vibra por uma fração de segundo (8 frames)
+    }
+}

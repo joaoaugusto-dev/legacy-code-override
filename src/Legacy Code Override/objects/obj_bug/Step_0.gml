@@ -51,6 +51,38 @@ switch (state) {
             timer = 60;
         }
         break;
+		case "DYING": // Inimigo foi atingido e está sendo deletado
+        hspd = 0; 
+        death_timer++;
+        
+        var _progresso = clamp(death_timer / 30, 0, 1);
+        
+        // Vai ficando verde aos poucos
+        image_blend = merge_color(c_white, c_lime, _progresso);
+        
+        // Tremidinha mais violenta
+        x += random_range(-2, 2);
+        
+        // ===================================================
+        // EXPLOSÃO DE FAÍSCAS AO MORRER!
+        // ===================================================
+        if (death_timer >= 30) {
+            
+            // Repete o código 15 vezes para soltar 15 faíscas pra todo lado
+            repeat (15) {
+                var _fx = x + random_range(-15, 15);
+                var _fy = y + random_range(-15, 15);
+                
+                // Cria a faísca verde nativa do GameMaker
+                effect_create_above(ef_spark, _fx, _fy, 1, c_lime);
+            }
+            
+            // Cria um "anel" de energia verde de impacto
+            effect_create_above(ef_ring, x, y, 0, c_green);
+            
+            instance_destroy(); // Deleta o inseto
+        }
+        break;
 }
 
 // =========================================================

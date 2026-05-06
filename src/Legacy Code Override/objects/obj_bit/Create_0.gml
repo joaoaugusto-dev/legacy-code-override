@@ -31,3 +31,4 @@ image_speed = 1;
 is_teleporting = false;
 teleport_timer = 0;
 teleport_duration = 2 * 60; // 5 segundos (considerando 60 FPS)
+

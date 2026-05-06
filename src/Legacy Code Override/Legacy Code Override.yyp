@@ -26,6 +26,7 @@
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},},
     {"id":{"name":"obj_ponta","path":"objects/obj_ponta/obj_ponta.yy",},},
     {"id":{"name":"obj_teleporter","path":"objects/obj_teleporter/obj_teleporter.yy",},},
+    {"id":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},},
     {"id":{"name":"Mainframe","path":"rooms/Mainframe/Mainframe.yy",},},
     {"id":{"name":"World1","path":"rooms/World1/World1.yy",},},
     {"id":{"name":"backgroundMainframe","path":"sprites/backgroundMainframe/backgroundMainframe.yy",},},
