@@ -7,6 +7,7 @@ walk_spd = 4;    // Velocidade de caminhada
 jump_spd = 9;    // Força do pulo
 subindo = false;
 grav = 0.3;
+cooldown_tiro = 0;
 
 // =========================================================
 // CONTROLE DE PULO E ESTADO

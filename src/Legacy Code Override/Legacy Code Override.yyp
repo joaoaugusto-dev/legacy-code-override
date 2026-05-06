@@ -20,6 +20,7 @@
   "name":"Legacy Code Override",
   "resources":[
     {"id":{"name":"obj_bit","path":"objects/obj_bit/obj_bit.yy",},},
+    {"id":{"name":"obj_bug","path":"objects/obj_bug/obj_bug.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
     {"id":{"name":"obj_kill","path":"objects/obj_kill/obj_kill.yy",},},
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},},
@@ -32,6 +33,7 @@
     {"id":{"name":"spr_bit_jump","path":"sprites/spr_bit_jump/spr_bit_jump.yy",},},
     {"id":{"name":"spr_bit_stand","path":"sprites/spr_bit_stand/spr_bit_stand.yy",},},
     {"id":{"name":"spr_bit_walk","path":"sprites/spr_bit_walk/spr_bit_walk.yy",},},
+    {"id":{"name":"spr_bug","path":"sprites/spr_bug/spr_bug.yy",},},
     {"id":{"name":"spr_debug","path":"sprites/spr_debug/spr_debug.yy",},},
     {"id":{"name":"spr_ladder","path":"sprites/spr_ladder/spr_ladder.yy",},},
     {"id":{"name":"spr_plataforma","path":"sprites/spr_plataforma/spr_plataforma.yy",},},
