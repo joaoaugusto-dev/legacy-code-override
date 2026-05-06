@@ -26,6 +26,7 @@
     {"id":{"name":"obj_ponta","path":"objects/obj_ponta/obj_ponta.yy",},},
     {"id":{"name":"obj_teleporter","path":"objects/obj_teleporter/obj_teleporter.yy",},},
     {"id":{"name":"Mainframe","path":"rooms/Mainframe/Mainframe.yy",},},
+    {"id":{"name":"World1","path":"rooms/World1/World1.yy",},},
     {"id":{"name":"backgroundMainframe","path":"sprites/backgroundMainframe/backgroundMainframe.yy",},},
     {"id":{"name":"spr_bit_boost","path":"sprites/spr_bit_boost/spr_bit_boost.yy",},},
     {"id":{"name":"spr_bit_jump","path":"sprites/spr_bit_jump/spr_bit_jump.yy",},},
@@ -41,6 +42,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Mainframe","path":"rooms/Mainframe/Mainframe.yy",},},
+    {"roomId":{"name":"World1","path":"rooms/World1/World1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

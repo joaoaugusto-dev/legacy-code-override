@@ -1,5 +1,3 @@
-// --- NO EVENTO ALARM 0 ---
-
 // Para a vibração antes de reiniciar
 gamepad_set_vibration(0, 0, 0);
 

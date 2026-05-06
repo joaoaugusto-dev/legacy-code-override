@@ -22,6 +22,11 @@ vib_timer = 0;   // Temporizador da vibração
 meu_gamepad = -1; // ID do controle (começa em -1 até detectar um)
 
 // =========================================================
-// CONFIGURAÇÃO VISUAL
+// CONFIGURAÇÃO VISUAL E TELEPORTE
 // =========================================================
 image_speed = 1;
+
+// Inicialização das variáveis do Teleporte
+is_teleporting = false;
+teleport_timer = 0;
+teleport_duration = 2 * 60; // 5 segundos (considerando 60 FPS)
