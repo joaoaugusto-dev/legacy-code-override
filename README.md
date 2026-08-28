@@ -82,13 +82,17 @@ Abaixo, a cronologia visual do desenvolvimento técnico, documentando a transiç
 
 ## 📥 Download
 
-Os executáveis para **Windows** e **Linux** estão disponíveis na
-[página de Releases](https://github.com/joaoaugusto-dev/legacy-code-override/releases/tag/v1.0.0).
+O executável para **Windows** está disponível na
+[página de Releases](https://github.com/joaoaugusto-dev/legacy-code-override/releases/tag/v1.0.0),
+junto com o código-fonte completo do projeto.
 
 | Plataforma | Arquivo | Como executar |
 | :--- | :--- | :--- |
 | Windows | `Legacy-Code-Override-1.0.0-windows.zip` | Extrair e rodar `Legacy Code Override.exe` |
-| Linux | `Legacy-Code-Override-1.0.0-linux.zip` | Extrair, `chmod +x` no executável e rodar |
+| Código-fonte | `Legacy-Code-Override-1.0.0-source.zip` | Abrir o `.yyp` no GameMaker IDE |
+
+> **Linux:** não há build pré-compilada nesta versão. O projeto pode ser compilado
+> para Ubuntu a partir do código-fonte — veja a seção abaixo.
 
 ---
 
